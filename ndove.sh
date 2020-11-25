@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# ARG_POSITIONAL_SINGLE([ssh-destination],[ssh destination you wan to connect to],[])
+# ARG_POSITIONAL_SINGLE([ssh-destination],[ssh destination you want to connect to],[])
 # ARG_POSITIONAL_SINGLE([private-port],[to local port you want to forward],[])
 # ARG_POSITIONAL_SINGLE([public-port],[the port on the remote server],[])
 # ARG_POSITIONAL_SINGLE([public-ip4],[ipv4 address of the public server],[])
@@ -39,7 +39,7 @@ print_help()
 {
 	printf '%s\n' "This script allows you to expose a local port through ssh"
 	printf 'Usage: %s [-h|--help] <ssh-destination> <private-port> <public-port> <public-ip4> [<public-ip6>]\n' "$0"
-	printf '\t%s\n' "<ssh-destination>: ssh destination you wan to connect to"
+	printf '\t%s\n' "<ssh-destination>: ssh destination you want to connect to"
 	printf '\t%s\n' "<private-port>: to local port you want to forward"
 	printf '\t%s\n' "<public-port>: the port on the remote server"
 	printf '\t%s\n' "<public-ip4>: ipv4 address of the public server"
