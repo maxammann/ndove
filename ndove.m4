@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# ARG_POSITIONAL_SINGLE([ssh-destination], [ssh destination you wan to connect to],)
+# ARG_POSITIONAL_SINGLE([ssh-destination], [ssh destination you want to connect to],)
 # ARG_POSITIONAL_SINGLE([private-port], [to local port you want to forward],)
 # ARG_POSITIONAL_SINGLE([public-port], [the port on the remote server],)
 # ARG_POSITIONAL_SINGLE([public-ip4], [ipv4 address of the public server],)
